@@ -16,7 +16,7 @@ n++;
 while (i <= 'Z')
 {
 putchar (i);
-i++
+i++;
 }
 putchar ('\n');
 return (0);
