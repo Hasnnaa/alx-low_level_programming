@@ -6,13 +6,17 @@
  */
 int main(void)
 {
-for (char n = 'a'; n <= 'z'; n++)
+char n = 'a';
+char i = 'A';
+while (n <= 'z')
 {
 putchar (n);
+n++;
 }
-for (char i = 'A'; i <= 'Z'; i++)
+while (i <= 'Z')
 {
 putchar (i);
+i++
 }
 putchar ('\n');
 return (0);
