@@ -6,12 +6,14 @@
  */
 int main(void)
 {
-int i = 0;
-while (i < 16)
+int n = 1;
+putchar('0');
+while (n <= 15)
 {
-putchar('0' + i);
-i++;
+putchar(n < 10 ? '0' + n : 'a' + n - 10);
+n++;
 }
 putchar('\n');
 return (0);
 }
+
