@@ -4,14 +4,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-int n = 0;
-while (n < 10)
-{
-printf("%d", n);
-n++;
-}
-putchar('\n');
-return (0);
+    int n = 0;
+    while(n  < 10){
+        putchar('0'+ n);
+        putchar('\n');
+        n++;
+    }
+    return 0;
 }
