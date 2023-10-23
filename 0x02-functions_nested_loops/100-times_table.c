@@ -5,14 +5,13 @@
  */
 void print_times_table(int n)
 {
-int j, i;
 if (n < 0 || n > 15)
 {
 return;
 }
-for (; i <= n; i++)
+for (int i = 0; i <= n; i++)
 {
-for (; j <= n; j++)
+for (int j = 0; j <= n; j++)
 {
 printf("%d", i * j);
 if (j < n)
