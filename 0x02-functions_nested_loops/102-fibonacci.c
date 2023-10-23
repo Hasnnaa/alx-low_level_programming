@@ -11,10 +11,10 @@ int a = 1, b = 2, i = 1;
 printf("%d, %d", a, b);
 for (; i < 50; i++)
 {
-int next = a + b;
-printf(", %d", next);
+int ji = a + b;
+printf(", %d", ji);
 a = b;
-b = next;
+b = ji;
 }
 printf("\n");
 return (0);
