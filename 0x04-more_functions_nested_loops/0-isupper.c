@@ -10,7 +10,7 @@
 
 int _isupper(int c)
 {
-while (c <= 'Z')
+while (c <= 'Z' && c <= 'a')
 {
 return (1);
 }
