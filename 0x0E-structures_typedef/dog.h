@@ -1,5 +1,5 @@
-#ifndef MY_HEADER_H
-#define MY_HEADER_H
+#ifndef DOG_H
+#define DOG_H
 /**
  * struct dog - Short description
  * @name: First member
@@ -8,14 +8,13 @@
  *
  * Description: Longer description
  */
-struct dog
+typedef struct dog
 {
 char *name;
-float age;
 char *owner;
-}dog_t;
+float age;
+} dog_t;
 #endif
-
 
 #ifndef FUNC
 #define FUNC
